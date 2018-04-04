@@ -1,0 +1,9 @@
+static program <tag> ( input, <tag>, output );
+begin
+        <tag> @input := <operation> <tag> @<tag>;
+        <operation> <tag> [<tag>, <tag>, (<tag>, all)] @output;
+        for all <tag> do
+        begin
+                <tag> @input:=<operation> <tag> @output
+        end
+end.
